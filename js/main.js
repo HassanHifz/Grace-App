@@ -42,101 +42,10 @@ $('a.s-scroll').on('click',function() {
     return false;
 });
 
-// Email validation text
-/*document.addEventListener("DOMContentLoaded", function() {
-    var elements = document.getElementsByTagName("INPUT");
-    for (var i = 0; i < elements.length; i++) {
-        elements[i].oninvalid = function(e) {
-            e.target.setCustomValidity("");
-            if (!e.target.validity.valid) {
-                e.target.setCustomValidity("This field cannot be left blank");
-            }
-        };
-        elements[i].oninput = function(e) {
-            e.target.setCustomValidity("");
-        };
-    }
-});*/
-
-/* Email registration */
-var email_reg_elem = document.getElementById("reg-email");
-email_reg_elem.oninvalid = function(e) {
-	e.target.setCustomValidity("");
-	if (!e.target.validity.valid) {
-		e.target.setCustomValidity("This email field cannot be left blank");
-	}
-};
-email_reg_elem.oninput = function(e) {
-	e.target.setCustomValidity("");
-};
-/* Message form */
-// email
-var email_message_elem = document.getElementById("mes-email");
-email_message_elem.oninvalid = function(e) {
-	e.target.setCustomValidity("");
-	if (!e.target.validity.valid) {
-		e.target.setCustomValidity("This email field cannot be left blank");
-	}
-};
-// name
-email_message_elem.oninput = function(e) {
-	e.target.setCustomValidity("");
-};
-var name_message_elem = document.getElementById("mes-name");
-name_message_elem.oninvalid = function(e) {
-	e.target.setCustomValidity("");
-	if (!e.target.validity.valid) {
-		e.target.setCustomValidity("This name field cannot be left blank");
-	}
-};
-// text
-name_message_elem.oninput = function(e) {
-	e.target.setCustomValidity("");
-};
-var text_message_elem = document.getElementById("mes-text");
-text_message_elem.oninvalid = function(e) {
-	e.target.setCustomValidity("");
-	if (!e.target.validity.valid) {
-		e.target.setCustomValidity("This text field cannot be left blank");
-	}
-};
-text_message_elem.oninput = function(e) {
-	e.target.setCustomValidity("");
-};
-
-/* */
 
 // Page Loader : hide loader when all are loaded
 $(window).load(function(){
     $('#page-loader').addClass('hidden');
-});
-
-
-/* 1. Clock attribute */
-
-var dateReadableText = 'Upcoming date';
-    if($('.site-config').attr('data-date-readable') && ($('.site-config').attr('data-date-readable') != '')){
-        $('.timeout-day').text('');
-        dateReadableText = $('.site-config').attr('data-date-readable');        
-        $('.timeout-day').text(dateReadableText);
-    }
-$('.clock-countdown').downCount({
-    date: $('.site-config').attr('data-date'),
-    offset: +10
-}, function () {
-    //callback here if finished
-    //alert('YES, done!');
-    var zerodayText = 'An upcoming date';
-    if($('.site-config').attr('data-zeroday-text') && ($('.site-config').attr('data-zeroday-text') != '')){
-        $('.timeout-day').text('');
-        zerodayText = $('.site-config').attr('data-zeroday-text'); 
-    }
-    $('.timeout-day').text(zerodayText);
-});
-
-/* Second */
-$(function() {
-	$("#second-knob").knob();
 });
 
 
@@ -181,24 +90,6 @@ $(function() {
     });
 });
 
-/* Static video background **/
-$(function(){
-	// Helper function to Fill and Center the HTML5 Video
-	$('.video-container video, .video-container object').maximage('maxcover');
-});
-/** youtube / vimeo background */
-$(function(){
-    if(backgroundVideoUrl != 'none'){
-        
-        //disable video background for smallscreen
-        if($(window).width() > 640){
-          $.okvideo({ source: backgroundVideoUrl,
-                    adproof: true
-                    });
-        }
-    }
-});
-
 /* 3. Slide */
 var isSlide = false;
 var slideElem = $('.slide');
@@ -208,11 +99,10 @@ var pageElem = $('.page');
 $(document).ready(function() {
     $('#mainpage').fullpage({
 		menu: '#qmenu',
-		anchors: ['home', 'when', 'register', 'about-us', 'contact'],
 //        verticalCentered: false,
 //        resize : false,
 //		responsive: 900,
-		scrollOverflow: true,
+		scrollOverflow: false,
         css3: false,
         navigation: true,
 		onLeave: function(index, nextIndex, direction){

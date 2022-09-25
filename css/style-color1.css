@@ -25,7 +25,7 @@
 .page .form textarea,
 .page-contact a ,
 .page-contact .socialnet a{
-	font-family: 'Opensans';
+	font-family: 'Lexend Deca', sans-serif;
 	letter-spacing: -0.01em;
 }
 
@@ -94,7 +94,7 @@
 	background: #26878e;
 }
 .page .form .fields,
-.page-cent .p-title h3{
+.page-cent .p-title {
 	border-bottom-color: #26878e;
 }
 .header-top.material .menu a,

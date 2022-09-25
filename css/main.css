@@ -67,7 +67,7 @@ div#n2 {
 	background-size: 400% 400%;
 }
 
-div#n3 {
+div#n3,#n4,#n5,#n6,#n7,#n8,#n9,#n10,#n11,#dd,#quote {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     animation: gradient 15s ease infinite;
 	background-size: 400% 400%;
@@ -142,7 +142,7 @@ body, html, h1, h2, h3, h4, h5, h6, a, ul, li{
     
 }
 body{
-    font-family: 'OpenSans';
+    font-family: 'Lexend Deca', sans-serif;
     background: #fff;
     
     margin: 0;
@@ -1014,7 +1014,7 @@ strong,
     -ms-transition: 0.6s;
     -webkit-transition: 0.6s;
     transition: 0.6s;
-	text-align: left;
+	text-align: center;
     font-family: 'Asap';
 	color: #fff;
 }
@@ -1023,6 +1023,15 @@ strong,
     display: block;
     margin-bottom: 0.5rem;
 }
+
+.fa-quote-left {
+    font-size: 25px;
+}
+
+.fa-quote-right {
+    font-size: 25px;
+}
+
 .page-cent .p-title h3{
 /*    text-transform: capitalize;   */
     font-size: 30px;
@@ -1031,7 +1040,7 @@ strong,
     display: inline-block;
 	color: #fff;
     font-family: 'Asap';
-	border-bottom: 8px solid #5677fc;
+	text-align: center;
 }
 .page-cent .p-title h2{
     text-transform: uppercase;   
