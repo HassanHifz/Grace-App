@@ -181,7 +181,7 @@
 			<section class="content">
                     <header class="p-title">
                         <h1>What do you have a lot of in your life?</h1> 
-                    </header> <br>
+                    </header>
 										<div class="text-center">
 					<a href="#" class="hbtn hb-fill-top">Love</a>
 					<a href="#" class="hbtn hb-fill-top">Power</a>
@@ -211,7 +211,7 @@
                 <section class="content">
                     <header class="p-title">
                         <h1>What do you not have enough of in your life?</h1> 
-                    </header> <br>
+                    </header>
 					<div class="text-center">
 					<a href="#" class="hbtn hb-fill-top">Love</a>
 					<a href="#" class="hbtn hb-fill-top">Power</a>
