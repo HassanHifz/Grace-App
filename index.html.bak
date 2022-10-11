@@ -86,7 +86,7 @@
 			
                     <header class="p-title">
 
-                        <h1 class="shad">Find Your Inner Grace</h1> 
+                        <h1 class="shad">Find Your Inner <br> Grace</h1> 
                     </header>
 					<br>
 					<div class="text-center">	
@@ -156,7 +156,7 @@
                                   
                 <section class="content">
                     <header class="p-title">
-                        <h1>What do you want most in life?</h1> 
+                        <h1 id="one">What do you want most in life?</h1> 
                     </header> <br>
 					<div class="text-center">
 					<a href="#" class="hbtn hb-fill-top">Love</a>
@@ -190,7 +190,7 @@
                         <h1>What do you have a lot of in your life?</h1> 
                     </header> <br>
 										<div class="text-center">
-					<a href="#" class="hbtn hb-fill-top">Love</a>
+					<a name="#one" href="#" class="hbtn hb-fill-top">Love</a>
 					<a href="#" class="hbtn hb-fill-top">Power</a>
 					<a href="#" class="hbtn hb-fill-top">Fun</a>
 					<a href="#" class="hbtn hb-fill-top">Health</a>
