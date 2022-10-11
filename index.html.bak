@@ -15,6 +15,13 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
 
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
         
         <!-- Initializer -->
         <link rel="stylesheet" href="css/normalize.css">        
@@ -71,15 +78,15 @@
             <!-- Front Page Starts From Here -->		
             <!-- Front Page Starts From Here -->
 			
-            <!-- Begin of Quote Page page -->
+            <!-- Begin of Front Page page -->
             <div class="section page-register page page-cent   bg-color" data-bgcolor="rgb(236, 239, 241)"  id="dd">
 			<section class="content">
 			
 			<img src="img/asd.png" height="250" width="220" alt="">
 			
                     <header class="p-title">
-					<h1 class="shad">Grace</h1> 
-                        <h1 class="shad">You Have Value</h1> 
+
+                        <h1 class="shad">Find Your Inner Grace</h1> 
                     </header>
 					<br>
 					<div class="text-center">	
@@ -100,7 +107,7 @@
 					
                 </section>				
             </div>
-            <!-- End of of Quote Page page -->
+            <!-- End of of Front Page page -->
 
 
             <!-- Begin of Quote Page page -->
@@ -149,14 +156,14 @@
                                   
                 <section class="content">
                     <header class="p-title">
-                        <h1>Do you want to change your life?</h1> 
+                        <h1>What do you want most in life?</h1> 
                     </header> <br>
 					<div class="text-center">
-					<a href="#" class="hbtn hb-fill-top">Strong No</a>
-					<a href="#" class="hbtn hb-fill-top">No</a>
-					<a href="#" class="hbtn hb-fill-top">Undecided</a>
-					<a href="#" class="hbtn hb-fill-top">Yes</a>
-					<a href="#" class="hbtn hb-fill-top">Strong Yes</a>
+					<a href="#" class="hbtn hb-fill-top">Love</a>
+					<a href="#" class="hbtn hb-fill-top">Power</a>
+					<a href="#" class="hbtn hb-fill-top">Fun</a>
+					<a href="#" class="hbtn hb-fill-top">Health</a>
+					<a href="#" class="hbtn hb-fill-top">Freedom</a>
 					</div>					
                 </section>		
 
@@ -181,7 +188,7 @@
 			<section class="content">
                     <header class="p-title">
                         <h1>What do you have a lot of in your life?</h1> 
-                    </header>
+                    </header> <br>
 										<div class="text-center">
 					<a href="#" class="hbtn hb-fill-top">Love</a>
 					<a href="#" class="hbtn hb-fill-top">Power</a>
@@ -211,7 +218,7 @@
                 <section class="content">
                     <header class="p-title">
                         <h1>What do you not have enough of in your life?</h1> 
-                    </header>
+                    </header> <br>
 					<div class="text-center">
 					<a href="#" class="hbtn hb-fill-top">Love</a>
 					<a href="#" class="hbtn hb-fill-top">Power</a>
